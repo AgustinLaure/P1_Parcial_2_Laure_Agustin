@@ -2,27 +2,30 @@
 
 namespace form
 {
+	Rectangle::Rectangle(Vector2 pos, float width, float height) : pos(pos), width(width), height(height) {}
+	Rectangle::~Rectangle() {}
+
 	bool Rectangle::isColRect(Rectangle rect)
 	{
 		bool isColX = false;
 		bool isColY = false;
 
-		if (rect.pos.x < pos.x)
+		if (rect.pos.x <= pos.x)
 		{
-			isColX = rect.pos.x + rect.width > pos.x;
+			isColX = rect.pos.x + rect.width >= pos.x;
 		}
-		else if (rect.pos.x > pos.x)
+		else if (rect.pos.x >= pos.x)
 		{
-			isColX = rect.pos.x < pos.x + width;
+			isColX = rect.pos.x <= pos.x + width;
 		}
 
-		if (rect.pos.y < pos.y)
+		if (rect.pos.y <= pos.y)
 		{
-			isColY = rect.pos.y + rect.height > pos.y;
+			isColY = rect.pos.y + rect.height >= pos.y;
 		}
-		else if (rect.pos.y > pos.y)
+		else if (rect.pos.y >= pos.y)
 		{
-			isColY = rect.pos.y < pos.y + rect.height;
+			isColY = rect.pos.y <= pos.y + rect.height;
 		}
 
 		return isColX && isColY;

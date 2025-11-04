@@ -4,9 +4,10 @@ namespace entity
 {
 	class Entity
 	{
-	private:
-		form::Rectangle body;
 	public:
+		form::Rectangle body;
 		Entity(form::Rectangle body);
+		~Entity();
+		bool isColEntity(Entity ent);
 	};
 }

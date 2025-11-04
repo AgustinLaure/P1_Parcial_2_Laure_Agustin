@@ -12,12 +12,24 @@
     <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="src\Form.cpp" />
+    <ClCompile Include="src\Form.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Entity.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="src\Form.h" />
+    <ClInclude Include="src\Game.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Form.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player.h" />
   </ItemGroup>
 </Project>

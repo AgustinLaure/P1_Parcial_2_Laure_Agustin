@@ -21,11 +21,15 @@
   <ItemGroup>
     <ClCompile Include="src\Entity.cpp" />
     <ClCompile Include="src\Form.cpp" />
+    <ClCompile Include="src\Game.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Player.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Entity.h" />
     <ClInclude Include="src\Form.h" />
+    <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\Player.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
