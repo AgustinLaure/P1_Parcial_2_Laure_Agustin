@@ -6,8 +6,13 @@ namespace player
 {
 	class Player : public entity::Entity
 	{
-		Player();
+	private:
+		void move();
+	public:
+		Player(form::Rectangle body);
 		~Player();
+		void update();
+		void draw();
 
 	};
 }
