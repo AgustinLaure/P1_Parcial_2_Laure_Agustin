@@ -4,32 +4,114 @@
     <Filter Include="src">
       <UniqueIdentifier>{11c579f0-4c94-441b-8f54-9d4772290d8e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Game">
+      <UniqueIdentifier>{67b4366c-9653-43c6-a439-25d36124e7b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Math">
+      <UniqueIdentifier>{f1c1d8aa-001c-4127-b635-231ccc97a1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Screen">
+      <UniqueIdentifier>{5cfc8eef-8f08-4f80-a1b6-7c7f68a4ec21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Math\Form">
+      <UniqueIdentifier>{966146d2-1069-4560-a675-0010a1875b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Entities">
+      <UniqueIdentifier>{8d59a767-b406-4a83-ac0f-25c6a8cf95f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Entities\Collectible">
+      <UniqueIdentifier>{de786feb-2352-4759-b1f7-9ea8c5a7df6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Entities\Obstacle">
+      <UniqueIdentifier>{e3e49739-7b47-4c4a-96f4-e3399a70ee33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Entities\Player">
+      <UniqueIdentifier>{dc7137b3-c334-4332-a65d-3ca20ac1b239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Entities\Collectible\AddLife">
+      <UniqueIdentifier>{e86c0ba2-2df6-468a-8806-87f4a16ba608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Entities\Collectible\AddScore">
+      <UniqueIdentifier>{b77cc538-8b6f-4b17-8232-5e9c60c4ae67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Entities\Collectible\MultiplyScore">
+      <UniqueIdentifier>{8629a360-078f-4349-8576-85a5efda5f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game\Entities\Collectible\AddStep">
+      <UniqueIdentifier>{e811a437-12c9-46bd-9cc3-4950819ea3e0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Entity.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="src\Screen\Screen.cpp">
+      <Filter>src\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\Form\Form.cpp">
+      <Filter>src\Math\Form</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Game.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Entities\Entity.cpp">
+      <Filter>src\Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Entities\Collectible\Collectible.cpp">
+      <Filter>src\Game\Entities\Collectible</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Entities\Player\Player.cpp">
+      <Filter>src\Game\Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Entities\Obstacle\Obstacle.cpp">
+      <Filter>src\Game\Entities\Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Entities\Collectible\AddLife\AddLife.cpp">
+      <Filter>src\Game\Entities\Collectible\AddLife</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Entities\Collectible\AddScore\AddScore.cpp">
+      <Filter>src\Game\Entities\Collectible\AddScore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Entities\Collectible\MultiplyScore\MultiplyScore.cpp">
+      <Filter>src\Game\Entities\Collectible\MultiplyScore</Filter>
     </ClCompile>
     <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="src\Form.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="src\Game\Entities\Collectible\AddStep\AddStep.cpp">
+      <Filter>src\Game\Entities\Collectible\AddStep</Filter>
     </ClCompile>
-    <ClCompile Include="src\Game.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Player.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Entity.h">
-      <Filter>src</Filter>
+    <ClInclude Include="src\Screen\Screen.h">
+      <Filter>src\Screen</Filter>
     </ClInclude>
-    <ClInclude Include="src\Game.h">
-      <Filter>src</Filter>
+    <ClInclude Include="src\Math\Form\Form.h">
+      <Filter>src\Math\Form</Filter>
     </ClInclude>
-    <ClInclude Include="src\Form.h">
-      <Filter>src</Filter>
+    <ClInclude Include="src\Game\Game.h">
+      <Filter>src\Game</Filter>
     </ClInclude>
-    <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\Game\Entities\Entity.h">
+      <Filter>src\Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Entities\Collectible\Collectible.h">
+      <Filter>src\Game\Entities\Collectible</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Entities\Player\Player.h">
+      <Filter>src\Game\Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Entities\Obstacle\Obstacle.h">
+      <Filter>src\Game\Entities\Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Entities\Collectible\AddLife\AddLife.h">
+      <Filter>src\Game\Entities\Collectible\AddLife</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Entities\Collectible\AddScore\AddScore.h">
+      <Filter>src\Game\Entities\Collectible\AddScore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Entities\Collectible\MultiplyScore\MultiplyScore.h">
+      <Filter>src\Game\Entities\Collectible\MultiplyScore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Entities\Collectible\AddStep\AddStep.h">
+      <Filter>src\Game\Entities\Collectible\AddStep</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
